@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "aekfc"
+version = "0.0.1"
+description = "A lightweight Python library and CLI tool to check AEK Athens F.C.'s next scheduled match."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [
+  { name = "C Bartsocas" },
+]
+keywords = ["football", "soccer", "aek", "aek-athens", "fixtures", "cli"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/caesium7/aek"
