@@ -1,3 +1,7 @@
+import importlib
 from .client import next, rank
 
-__version__ = "0.1.0"
+
+def forza():
+    import aek.forza
+    importlib.reload(aek.forza)
