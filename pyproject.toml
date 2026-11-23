@@ -17,3 +17,6 @@ dependencies = []
 
 [project.urls]
 Homepage = "https://github.com/caesium7/aek"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/aek"]
