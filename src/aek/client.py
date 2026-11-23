@@ -32,6 +32,6 @@ def rank():
     for row in table:
         if row.get("idTeam") == "133753":
             x = int(row["intRank"])
-    print('AEK Athens are number', x, 'in the Greek Super League', sep = ' ')
-
-
+            print(f"AEK Athens are number {x} in the Greek Super League")
+            return
+    print("AEK Athens are currently outside the top 5 in the Greek Super League")
