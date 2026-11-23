@@ -31,5 +31,7 @@ def rank():
     table = data.get("table") or []
     for row in table:
         if row.get("idTeam") == "133753":
-            return int(row["intRank"])
-    return None
+            x = int(row["intRank"])
+    print('AEK Athens are number', x, 'in the Greek Super League', sep = ' ')
+
+
