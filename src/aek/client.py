@@ -35,3 +35,14 @@ def rank():
             print(f"AEK Athens are number {x} in the Greek Super League")
             return
     print("AEK Athens are currently outside the top 5 in the Greek Super League")
+
+
+def copyright():
+    print(
+        "aekfc — Unofficial AEK Athens F.C. Python Package\n"
+        "Copyright (c) 2026 C Bartsocas (MIT License)\n\n"
+        "Disclaimer: This is an unofficial fan-based project and is not endorsed by,\n"
+        "affiliated with, or commissioned by AEK Athens F.C. All club names,\n"
+        "competition names, and trademarks belong to their respective owners.\n\n"
+        "Data Source: TheSportsDB (https://www.thesportsdb.com)"
+    )

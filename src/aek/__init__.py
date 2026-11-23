@@ -1,6 +1,6 @@
 import importlib
 import sys
-from .client import next, rank
+from .client import copyright, next, rank
 
 
 def forza():
