@@ -3,6 +3,8 @@ import requests
 _builtin_next = next
 URL = "https://www.thesportsdb.com/api/v1/json/123/eventsnext.php?id=133753"
 
+print('Welcome to the AEK Athens module in python! Explore by typing in certain commands or type aek.help(). For more details regarding compliance and copyright, please type in aek.copyright().')
+
 
 def next():
     r = requests.get(URL, headers={"User-Agent": "aek"}, timeout=10)
@@ -36,7 +38,8 @@ def rank():
             return
     print("AEK Athens are currently outside the top 5 in the Greek Super League")
 
-
+def stadium():
+    print('AEK Athens play at the ALLWYN Arena (Agia Sophia Stadium). It can hold 32,500 people and was built in October 2022.')
 def copyright():
     print(
         "aekfc — Unofficial AEK Athens F.C. Python Package\n"
@@ -46,3 +49,5 @@ def copyright():
         "competition names, and trademarks belong to their respective owners.\n\n"
         "Data Source: TheSportsDB (https://www.thesportsdb.com)"
     )
+def help():
+    print('Check out the readme on PYPI, at https://pypi.org/project/aekfc/ for more details.')
