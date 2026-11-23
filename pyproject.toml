@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "aekfc"
-version = "0.2.2"
+version = "0.2.3"
 description = "A lightweight Python library to check AEK Athens F.C.'s next scheduled match."
 readme = "README.md"
 requires-python = ">=3.9"
@@ -16,7 +16,7 @@ keywords = ["football", "soccer", "aek", "aek-athens", "fixtures"]
 dependencies = ["requests"]
 
 [project.urls]
-Homepage = "https://github.com"
+Homepage = "https://github.com/caesium7/aek"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/aek"]
