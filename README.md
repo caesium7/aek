@@ -1,7 +1,12 @@
 # aekfc
 A lightweight Python library to check AEK Athens F.C.'s next scheduled match.
 # How to install
-**pip install aekfc** in your terminal, and then **import aek** in your IDE.
+Install the lightweight, zero-dependency version (uses Python's built-in urllib): \
+**pip install aekfc** \
+Or, if you prefer to use requests as the HTTP backend: \
+**pip install "aekfc[requests]"** \
+Then import it in your IDE: \
+**import aek**
 # Commands
 **aek.next()** - AEK's next fixture \
 **aek.rank()** - AEK's place in Super League Greece \
