@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "aekfc"
-version = "1.0.1"
+version = "1.0.1a"
 description = "A lightweight Python library to check AEK Athens F.C.'s next scheduled match."
 readme = "README.md"
 requires-python = ">=3.9"
@@ -13,7 +13,10 @@ authors = [
   { name = "C Bartsocas" },
 ]
 keywords = ["football", "soccer", "aek", "aek-athens", "fixtures"]
-dependencies = ["requests"]
+dependencies = []
+
+[project.optional-dependencies]
+requests = ["requests"]
 
 [project.urls]
 Homepage = "https://github.com/caesium7/aek"
