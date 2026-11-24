@@ -1,6 +1,6 @@
 import importlib
 import sys
-from .client import copyright, next, rank
+from .client import copyright, help, next, rank, stadium
 
 
 def forza():
